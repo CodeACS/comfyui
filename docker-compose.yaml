@@ -12,7 +12,7 @@ services:
         # Base on Python image which is base + python + jupyter
         IMAGE_BASE: ${IMAGE_BASE:-ghcr.io/ai-dock/python:${PYTHON_VERSION:-3.13.0}-v2-cuda-12.8.0-base-22.04}
       tags:
-        - "ghcr.io/ai-dock/comfyui:${IMAGE_TAG:-pytorch-${PYTORCH_VERSION:-2.6.0-py3.13.2-v2-cuda-12.8.0-base-22.04}"
+        - "ghcr.io/ai-dock/comfyui:${IMAGE_TAG:-pytorch-${PYTORCH_VERSION:-2.6.0}-py3.13.2-v2-cuda-12.8.0-base-22.04}"
         
     image: ghcr.io/ai-dock/comfyui:${IMAGE_TAG:-pytorch-${PYTORCH_VERSION:-2.6.0}-py3.13.2-v2-cuda-12.8.0-base-22.04}
     
