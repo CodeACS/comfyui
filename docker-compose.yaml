@@ -1,4 +1,3 @@
-version: "3.8"
 # Compose file build variables set in .env
 services:
   supervisor:
